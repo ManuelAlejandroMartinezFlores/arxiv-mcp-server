@@ -73,4 +73,12 @@ Here is the generated BibTeX for the paper:
     }
 
 ```
-
+To execute this MCP server, clone the repository or downlad the zip file. It is recommended to use `uv` for package management. Then use the following parameters when configuring this MCP using Anthropic's SDK<br>
+```json
+{
+  "command": "uv",
+  "args": [
+    "run", "--repository", "PATH/TO/REPO", "PATH/TO/REPO/arxiv_mcp_server.py"
+  ]
+}
+```
