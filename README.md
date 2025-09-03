@@ -82,3 +82,7 @@ To execute this MCP server, clone the repository or downlad the zip file. It is 
   ]
 }
 ```
+Moreover, the user should specify the default path for pdf downloads in the `.env` file 
+```env
+DOWNLOAD_ROOT = 'PATH/TO/DOWNLOAD/PDF'
+```
